@@ -1,8 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
+import DashboardEvents from "../src/container/DashboardEvents";
 
 ReactDOM.render(
-  <div>Add your code here!</div>,
+  <DashboardEvents/>,
   document.getElementById("root-container")
 );
